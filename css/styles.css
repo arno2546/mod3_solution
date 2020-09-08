@@ -1,0 +1,52 @@
+body{
+    font-family: 'Comic Neue', cursive;
+    font-size: 15px;
+    color:#000;
+}
+
+.navbar-brand a{
+    color:#000;
+    font-size: 1.8em;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+#header-nav{
+    background-color: darkgray;
+    border-bottom: 3px solid black;
+}
+#nav-list{
+    background-color: white;
+    text-align: center;
+}
+#nav-list li a span{
+    color: #000;
+}
+#nav-list:hover{
+    color: darkgray;
+    transition-duration: .2s;
+}
+#main-title{
+    font-size:2em;
+}
+.menu-item{
+    background-color: darkgray;
+    margin: 0 auto 20px;
+     
+}
+.menu-item-details{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.menu-item-title{
+    text-align: center;
+    font-size: 1.5em;
+}
+@media (max-width: 767px){
+    .menu-item{
+        margin: 0 30px 20px;
+        padding-top: 2px;
+    }
+}
